@@ -1,0 +1,13 @@
+[project]
+name = "hello"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.119.0",
+    "opentelemetry-distro>=0.58b0",
+    "opentelemetry-exporter-otlp>=1.37.0",
+    "opentelemetry-instrumentation-fastapi>=0.58b0",
+    "uvicorn>=0.37.0",
+]
