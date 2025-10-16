@@ -1,3 +1,6 @@
 {
-  "appHostPath": "../apphost.cs"
+  "appHostPath": "../apphost.cs",
+  "features": {
+    "singlefileAppHostEnabled": "true"
+  }
 }
