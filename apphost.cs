@@ -7,7 +7,7 @@
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddAzureContainerAppEnvironment("appenv");
+builder.AddAzureAppServiceEnvironment("env");
 
 builder.AddPythonExecutable("api", "./hello", "uvicorn")
        .WithArgs("main:app", "--host", "0.0.0.0", "--port", "8000")
